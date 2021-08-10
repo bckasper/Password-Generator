@@ -46,7 +46,26 @@ function writePassword() {
 
   generatePassword = () => {
     // Code to generate the password
-    
+    let string = []
+    for(let i=0; i<passwordLength; i+0){
+      if(uppers && i<passwordLength){
+        string.push(randomUpperCase())
+        i++
+        } else {i+0}
+      if(lowers && i<passwordLength){
+        string.push(randomLowerCase())
+        i++
+        } else {i+0}
+      if(numbers && i<passwordLength){
+          string.push(randomNumber())
+          i++
+          } else {i+0}
+      if(characters && i<passwordLength){
+          string.push(randomSpecialCharacter())
+          i++
+          } else {i+0}
+    }
+    return string.join("")
   }
 
   var password = generatePassword()
@@ -76,9 +95,8 @@ Logical plan:
 
 */
 
-var rando = 'Qn9(Kc5!Dn0(Te4.Mb4?Rj0;Hy1#Ew4$'
+var rando = '$fS$fS$fS$fS$fS$fS$fS$fS'
 console.log(rando.length)
-
 
 
 // Prior attempt with a For Loop
