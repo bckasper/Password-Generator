@@ -39,10 +39,14 @@ function writePassword() {
   numbers = window.confirm("Would you like your password to include numerical values (e.g., 0-9)?\n\nPlease choose \"OK\" to include, or \"Cancel\" to exclude:")
   characters = window.confirm("Would you like your password to include special characters (e.g., !@#$)?\n\nPlease choose \"OK\" to include, or \"Cancel\" to exclude:")
   
+  // Check to see that the user at least chose one kind of character
+  if((!uppers) && (!lowers) && (!numbers) && (!characters)){
+    return window.alert("Error: Password unable to generate\n\nYou must select \"OK\" for at least one kind of character.")
+  }
 
   generatePassword = () => {
-    // write my code to generate the password
-  
+    // Code to generate the password
+    
   }
 
   var password = generatePassword()
@@ -71,3 +75,21 @@ Logical plan:
 4. Password is created and displayed in the textarea on the page
 
 */
+
+var rando = 'Qn9(Kc5!Dn0(Te4.Mb4?Rj0;Hy1#Ew4$'
+console.log(rando.length)
+
+
+
+// Prior attempt with a For Loop
+// generatePassword = () => {
+//   // Code to generate the password
+//   let string = [];
+//   for(let i = 0; i < passwordLength; i++){
+//     string.push(randomUpperCase())
+//     string.push(randomLowerCase())
+//     string.push(randomNumber())
+//     string.push(randomSpecialCharacter())
+//   }
+//   return string.join("")
+// }
