@@ -9,15 +9,15 @@ This is a simple application that will take a series of user inputs and generate
 1. The user opens the application using the Live URL link ()
 
 2. The user clicks the button that says "Generate Password"
-    a. If the user does not enter a number between 8-128 characters, they will receive an error message
-    b. The error message appears if they enter NOT a number, or if they enter a number <8 or >128
-    c. If the user clicks CANCEL or enters nothing and clicks OK, they will go back to the start
+    - If the user does not enter a number between 8-128 characters, they will receive an error message
+    - The error message appears if they enter NOT a number, or if they enter a number <8 or >128
+    - If the user clicks CANCEL or enters nothing and clicks OK, they will go back to the start
 
 3. The user then clicks through 4 prompts to determine if they want their password to include:
-    a. Uppercase Characters
-    b. Lowercase Characters
-    c. Numerical Values
-    d. Special Characters
+    - Uppercase Characters
+    - Lowercase Characters
+    - Numerical Values
+    - Special Characters
 
 4. If the user does not select any of the 4 available character types (by clicking "Cancel" on every prompt), they will receive an error alert and start over
 
