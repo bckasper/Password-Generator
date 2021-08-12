@@ -27,7 +27,9 @@ function writePassword() {
   // Password length with an error alert if they do not enter a NUMBER 8-128 (errors if blank, <8, >128, or not a number)
   // The user will just return to the beginning if they hit "cancel"
   passwordLength = window.prompt("What is your desired character length for the password?\n\nPlease enter a number between 8 and 128:")
-  if((!passwordLength) || (passwordLength <8) || (passwordLength >128) || (isNaN(passwordLength))){
+  if(!passwordLength){
+    return
+  } else if((passwordLength <8) || (passwordLength >128) || (isNaN(passwordLength))){
     return window.alert("Error: Password length must be a number between 8 to 128 characters long")
   }
 
