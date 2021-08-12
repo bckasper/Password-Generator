@@ -31,10 +31,10 @@ Below are the links to the live application (.io URL) and the link to the Github
 
 
 ### Screenshot of application when user first opens
-Assets/Screenshots/Pwd_Generator_First_Opened.png
+/Users/benkasper/Desktop/Coding/OSU Bootcamp/Password-Generator/Assets/Screenshots/Pwd_Generator_First_Opened.png
 
 ### Screenshot of a user prompt
-Assets/Screenshots/Pwd_Generator_Prompts.png
+/Users/benkasper/Desktop/Coding/OSU Bootcamp/Password-Generator/Assets/Screenshots/Pwd_Generator_Prompts.png
 
 ## Screenshot of the application after it generates a password
-Assets/Screenshots/Pwd_Generator_Complete.png 
+/Users/benkasper/Desktop/Coding/OSU Bootcamp/Password-Generator/Assets/Screenshots/Pwd_Generator_Complete.png
