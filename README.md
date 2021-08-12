@@ -1,6 +1,8 @@
 # Password-Generator
 This is a simple application that will take a series of user inputs and generate a random password. 
 
+
+
 ## How does this application work?
 **Below is the step-by-step algorithm for this application:**
 
@@ -22,16 +24,20 @@ This is a simple application that will take a series of user inputs and generate
 5. The application will generate a password that matches the length and characters selected by the user. This password will be displayed in the body's Textarea element.
 
 
+
+
 ## Accessing the application
 Below are the links to the live application (.io URL) and the link to the Github Repo.
 
-**Live URL:** 
+**Live URL:** https://bckasper.github.io/Password-Generator/ 
 
 **Github Repo:** https://github.com/bckasper/Password-Generator 
 
 
+
+
 ## Screenshots
-[Screenshot of when the application is first opened](Assets/Screenshots/Pwd_Generator_First_Opened.png)
+![Screenshot of when the application is first opened](Assets/Screenshots/Pwd_Generator_First_Opened.png)
 
 ![Screenshot of a user prompt](Assets/Screenshots/Pwd_Generator_Prompts.png)
 
