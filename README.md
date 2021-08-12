@@ -30,11 +30,9 @@ Below are the links to the live application (.io URL) and the link to the Github
 **Github Repo:** https://github.com/bckasper/Password-Generator 
 
 
-### Screenshot of application when user first opens
-/Users/benkasper/Desktop/Coding/OSU Bootcamp/Password-Generator/Assets/Screenshots/Pwd_Generator_First_Opened.png
+## Screenshots
+[Screenshot of when the application is first opened](Assets/Screenshots/Pwd_Generator_First_Opened.png)
 
-### Screenshot of a user prompt
-/Users/benkasper/Desktop/Coding/OSU Bootcamp/Password-Generator/Assets/Screenshots/Pwd_Generator_Prompts.png
+![Screenshot of a user prompt](Assets/Screenshots/Pwd_Generator_Prompts.png)
 
-## Screenshot of the application after it generates a password
-/Users/benkasper/Desktop/Coding/OSU Bootcamp/Password-Generator/Assets/Screenshots/Pwd_Generator_Complete.png
+![Screenshot of the application after it generates a password](Assets/Screenshots/Pwd_Generator_Complete.png)
